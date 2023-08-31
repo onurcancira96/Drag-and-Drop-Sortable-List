@@ -1,0 +1,128 @@
+@media screen and (max-width: 320px) {
+  .lead {
+    font-size: 5px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .lead {
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .lead {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .lead {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .lead {
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .lead {
+    font-size: 18px;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0a0c10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.baslik{
+  background: #f9fbe7;
+}
+
+.sortable-list {
+
+  border-radius: 6px;
+  padding: 30px 25px;
+  box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
+  background-color: #272829;
+
+}
+
+.sortable-list .item {
+  background-color: #f9fbe7;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  align-items: center;
+  opacity: 0;
+  justify-content: space-between;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.sortable-list .item:hover {
+  margin-left: 8px;
+  box-shadow: 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12), 0px 8px 10px -7px rgba(0, 0, 0, 0.2);
+}
+
+.item .details {
+  display: flex;
+  align-items: center;
+}
+
+.item .details img {
+  width: 70px;
+  height: 70px;
+  margin-right: 12px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+.item .details span {
+  margin-left: 20px;
+  font: size 1.13rem;
+}
+
+.item i {
+
+  color: #474747;
+  font-size: 25px;
+}
+
+.item.dragging :where(.details, i) {
+  opacity: 0;
+}
+
+.geriDonut {
+  position: absolute;
+  top: 16%;
+  right: 18%;
+  border-radius: 10px;
+  padding-top: 10px;
+  box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+.dogru {
+  background-color: #D0F5BE;
+  transition: all 1s ease-in-out;
+
+}

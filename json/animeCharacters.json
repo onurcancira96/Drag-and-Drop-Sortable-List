@@ -1,0 +1,46 @@
+{
+   "kages":[
+    {
+        "id":1,
+        "title":"Shodaime",
+        "name":"Hashirama Senju",
+        "url":"https://static.wikia.nocookie.net/naruto/images/2/20/Hashirama%27s_Sage_Mode.png"
+    },
+    {
+        "id":2,
+        "title":"Nidaime",
+        "name":"Tobirama Senju",
+        "url":"https://static.wikia.nocookie.net/naruto/images/2/29/Tobirama%27s_Rage.png"
+    },
+    {
+        "id":3,
+        "title":"Sandaime",
+        "name":"Hiruzen Sarutobi",
+        "url":"https://static.wikia.nocookie.net/naruto/images/e/e4/Hiruzen_Sarutobi.png"
+    },
+    {
+        "id":4,
+        "title":"Yondaime",
+        "name":"Minato Namikaze",
+        "url":"https://static.wikia.nocookie.net/naruto/images/7/71/Minato_Namikaze.png"
+    },
+    {
+        "id":5,
+        "title":"Godaime",
+        "name":"Tsunade Senju",
+        "url":"https://static.wikia.nocookie.net/naruto/images/b/b3/Tsunade_infobox2.png"
+    },
+    {
+        "id":6,
+        "title":"Rokudaime",
+        "name":"Kakashi Hatake",
+        "url":"https://static.wikia.nocookie.net/naruto/images/2/25/Kakashi_Part_III.png"
+    },
+    {
+        "id":7,
+        "title":"Nanadaime",
+        "name":"Naruto Uzumaki",
+        "url":"https://static.wikia.nocookie.net/naruto/images/d/dc/Naruto%27s_Sage_Mode.png"
+    }
+]
+}

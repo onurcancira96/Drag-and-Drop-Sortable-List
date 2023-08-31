@@ -12,8 +12,8 @@ Bu proje, HTML, CSS ve JavaScript kullanarak sürükleyip bırakılabilir öğel
 ![image](https://github.com/onurcancira96/Drag-and-Drop-Sortable-List/assets/114770570/d9484941-2f7b-4e53-aa04-ab4c328ddb2a)
 
 ## Özellikler
-- JSON dosyasından veriler alınır ve rastgele karıştırılarak sürükleyip bırakılabilir liste oluşturulur.
-- Sürüklenen öğelerin sırası değiştirildiğinde doğru sıralama kontrol edilir.
+1. JSON dosyasından veriler alınır ve rastgele karıştırılarak sürükleyip bırakılabilir liste oluşturulur.
+2. Sürüklenen öğelerin sırası değiştirildiğinde doğru sıralama kontrol edilir.
 
 ## Kullanım
 Bu örnek proje, sürükleyip bırakılabilir öğeleri göstermek için basit bir örnektir. Projenizi klonladıktan veya indirdikten sonra aşağıdaki adımları izleyerek kullanabilirsiniz:

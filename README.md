@@ -11,14 +11,20 @@ Bu proje, HTML, CSS ve JavaScript kullanarak sürükleyip bırakılabilir öğel
 
 ![image](https://github.com/onurcancira96/Drag-and-Drop-Sortable-List/assets/114770570/d9484941-2f7b-4e53-aa04-ab4c328ddb2a)
 
+## Özellikler
+- JSON dosyasından veriler alınır ve rastgele karıştırılarak sürükleyip bırakılabilir liste oluşturulur.
+- Sürüklenen öğelerin sırası değiştirildiğinde doğru sıralama kontrol edilir.
 
 ## Kullanım
-Bu projeyi kullanabilmek için aşağıdaki adımları izleyebilirsiniz:
+Bu örnek proje, sürükleyip bırakılabilir öğeleri göstermek için basit bir örnektir. Projenizi klonladıktan veya indirdikten sonra aşağıdaki adımları izleyerek kullanabilirsiniz:
 
-1. Projeyi tarayıcınızda açın.
-2. Sürüklenebilir kartları kullanarak içerikleri görüntüleyin.
-3. Slider'ın altındaki sayfalama butonları ile kartlar arasında geçiş yapın.
-4. Sağ ve sol ok butonlarıyla da kartları sürükleyerek geçiş yapabilirsiniz.
+1. Proje dizinindeki `index.html` dosyasını bir tarayıcıda açın.
+
+2. Sayfa yüklendikten sonra, JSON dosyasından alınan veriler rastgele karıştırılarak sürükleyip bırakılabilir bir liste olarak görüntülenecektir.
+
+3. Öğeleri sürükleyerek sıralamayı değiştirebilirsiniz. Doğru bir sıralama elde ettiğinizde, liste yeşil renkle vurgulanacaktır.
+
+4. Projeyi kendi ihtiyaçlarınıza göre özelleştirebilirsiniz. Örneğin, `animeCharacters.json` dosyasındaki verileri değiştirerek farklı öğeler ekleyebilirsiniz.
 
 ## Teknolojiler
 Bu proje aşağıdaki teknolojileri kullanmaktadır:
@@ -26,7 +32,7 @@ Bu proje aşağıdaki teknolojileri kullanmaktadır:
 1. HTML
 2. CSS
 3. JavaScript
-4. Swiper: Sürüklenen kartlar için kullanılan bir carousel (kaydırıcı) kütüphanesi
+4. Bootstrap
 
 ## Katkıda Bulunma
 Eğer projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:

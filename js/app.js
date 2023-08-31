@@ -2,7 +2,7 @@ const sortableList = document.querySelector(".sortable-list");
 let items = sortableList.querySelectorAll(".item");
 let islenmisData = [];
 let siraHesapla = [];
-fetch("../json/animeCharacters.json")
+fetch("./json/animeCharacters.json")
   .then((res) => res.json())
   .then((data) => {
     ekleme(data);

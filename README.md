@@ -5,7 +5,7 @@
 Bu proje, HTML, CSS ve JavaScript kullanarak sürükleyip bırakılabilir öğeleri içeren bir liste örneğini göstermektedir. Bu örnekte, bir JSON dosyasından veriler alınır, rastgele karıştırılır ve sürükleyip bırakılabilir bir liste olarak görüntülenir.
 ## Proje URL
 
-[https://onurcancira96.github.io/Draggable-Card-Slider/](https://onurcancira96.github.io/Drag-and-Drop-Sortable-List/)
+[https://onurcancira96.github.io/Drag-and-Drop-Sortable-List/](https://onurcancira96.github.io/Drag-and-Drop-Sortable-List/)
 
 ## Ekran Görüntüsü
 
